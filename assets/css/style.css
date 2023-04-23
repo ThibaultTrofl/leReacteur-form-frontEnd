@@ -1,0 +1,105 @@
+body {
+  font-family: "Libre Franklin", sans-serif;
+}
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: x-large;
+  font-weight: bold;
+  color: #134074;
+}
+
+h2 {
+  font-size: larger;
+  font-weight: 600;
+}
+/* -------Header-------*/
+header {
+  background-color: #cdd5d1;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header > div > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* -------Main-------*/
+main {
+  background-color: #5b6c5d;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  height: 50vh;
+  background-color: #cdd5d1;
+  border-radius: 20px;
+  box-shadow: -3px -3px 5px rgba(14, 14, 14, 0.473);
+  padding: 30px 20px;
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.box > h2 {
+  align-self: center;
+  margin-bottom: 20px;
+  color: #134074;
+}
+
+form > input,
+form > textarea,
+button {
+  background-color: #ffffff;
+  border: solid 2px #5b6c5d;
+  border-radius: 5px;
+  padding: 6px;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #13407496;
+}
+
+form > textarea {
+  height: 100px;
+}
+
+form > button {
+  background-color: #5b6c5d;
+  border-radius: 10px;
+  border: solid 1px #5b6c5d;
+  color: #134074d9;
+}
+
+/* -------Footer-------*/
+footer {
+  background-color: #5b6c5d;
+  height: 10vh;
+}
+footer > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p,
+a {
+  color: #134074;
+  text-decoration: none;
+}
