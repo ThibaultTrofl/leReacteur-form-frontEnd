@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
     console.log(data);
 
     const response = await axios.post(
-      "https://site--form-back--tq978s5f6htc.code.run/",
+      "https://site--form-back--tq978s5f6htc.code.run/form",
       data
     );
     console.log(response);
